@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="modal">
+        <div class="modal__box">
+            <div class="modal__cross">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.06077 2L20.0608 20M19.9395 2L1.93945 20" stroke="#00E0FF" stroke-width="3"/>
+                    </svg>                    
+            </div>
+            <form class="modal__form">
+                <div class="modal__title"> 
+                    <span class="modal__title-blue">Записаться</span>
+                    на ознакомительный вебинар
+                </div>
+                <!-- Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="Site Name">
+                <input type="hidden" name="admin_email" value="vlaadecr000@gmail.com">
+                <input type="hidden" name="form_subject" value="Form Subject">
+                <!-- END Hidden Required Fields -->
+                <div class="modal__form-box">
+                    <div class="modal__form-name">Ваше ФИО:</div>
+                    <input type="text" name="Name"  required><br>
+                </div>
+                <div class="modal__form-box">
+                    <div class="modal__form-name">Номер телефона:</div>
+                    <input type="text" name="Number" value="+82"  required><br>
+                </div>
+                <div class="modal__form-box">
+                    <div class="modal__form-name">Ваш e-mail:</div>
+                    <input type="text" name="E-mail" ><br>
+                </div>
+                <div class="modal__form-box">
+                    <div class="modal__form-name">Выберите дату и время вебинара:</div>
+                    <input type="text" name="Date" ><br>
+                </div>
+                <button type="submit">Записаться</button>
+            </form>
+        </div>
+    </div>
+    <a class="hero__box">
+        <div class="html__btn modal__open">
+            <div class="html__back"></div>
+            <div class="html__btn-circle">
+                <img src="images/headphones-icon.png" alt="" class="html__btn-img">
+            </div>
+        </div>
+       
+    </a>
+    <a class="hero__box-text">Бесплатная консультация</a>
+    <main>
+        <section class="hero" id="hero">
+          
+            <div class="container">
+                <div class="hero__header">
+                    <img src="images/logo.png" alt="" class="hero__header-img">
+                    <div class="hero__header-box">
+                        <img src="images/phone-icon.svg" alt="phone" class="hero__header-phone">
+                        <span class="hero__header-phone">+ 82 (66) 6666-6666 </span>
+                    </div>
+                </div>
+                <div class="hero__inner">
+                    <div class="hero__suptitle">Добро пожаловать в онлайн школу </div>
+                    <h1 class="hero__title">VeraVla edu!</h1>
+                    <p class="hero__subtitle">Переквалифицируйся в разработчика искусственного интеллекта и получи высокооплачиваемую работу    </p>
+                    <div class="hero__item">
+                        <div class="hero__item-around"> <img src="images/diploma-icon.png" alt="icon" class="hero__item-img"></div>
+                        <div class="hero__item-box">
+                            <div class="hero__item-title">Мы обучаем с гарантией!</div>
+                            <p class="hero__item-subtitle">Первый месяц действует гарантия 100% возврата 
+                                денег, если тебя не устроят наши курсы</p>
+                        </div>
+                    </div>
+                    <div class="hero__bottom">
+                        <button class="page-btn hero__bottom-btn">Записаться на ознакомительный вебинар</button>
+                        <a href="#cause" class="hero__bottom-box">
+                            <div class="hero__bottom-text">Листайте вниз</div>
+                            <div class="hero__bottom-labe">
+                                <div class="hero__bottom-circle"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cause" id="cause">
+            <div class="container">
+                    <h1 class="page-title cause__title"><span class="page-blue">7 причин</span> почему именно мы? </h1>
+                    <div class="cause__inner-top"> 
+                        <div class="cause__item cause__item-small">
+                            <img src="images/cause-1.png" alt="" class="cause__item-img">
+                            <p class="cause__item-text">Ты станешь востребованным специалистом в области искусственного интеллекта</p>
+                        </div>
+                        <div class="cause__item cause__item-small">
+                            <img src="images/cause-2.png" alt="" class="cause__item-img">
+                            <p class="cause__item-text">Будешь создавать свои модели искусственного интеллекта на языке программирования Python</p>
+                        </div>
+                        <div class="cause__item cause__item-small">
+                            <img src="images/cause-3.png" alt="" class="cause__item-img">
+                            <p class="cause__item-text">Сумеешь создавать программы, связанные 
+                                с компьютерным зрением и нейронными сетями.</p>
+                        </div>
+                        <div class="cause__item cause__item-small">
+                            <img src="images/cause-4.png" alt="" class="cause__item-img">
+                            <p class="cause__item-text">Мы обучаем только тому, что тебе пригодится 
+                                во время работы!</p>
+                        </div>
+                    </div>
+                    <div class="cause__inner-bottom">
+                        <div class="cause__item cause__item-big">
+                            <img src="images/cause-5.png" alt="" class="cause__item-img">
+                            <p class="cause__item-text">Ты найдешь единомышленников, 
+                                с которыми сможешь создавать свои проекты</p>
+                        </div>
+                        <div class="cause__item cause__item-big">
+                            <img src="images/cause-6.png" alt="" class="cause__item-img">
+                            <p class="cause__item-text">Мы создаём сообщество профессионалов, таких же как и мы, жаждущих развивать и изменять этот мир к лучшему с помощью IT технологий</p>
+                        </div>
+                        <div class="cause__item cause__item-big">
+                            <img src="images/cause-7.png" alt="" class="cause__item-img">
+                            <p class="cause__item-text">После успешного завершения курса, мы поможем тебе трудоустроиться 
+                                в Южнокорейские IT компании!</p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <section class="intellect">
+            <div class="container">
+                <h1 class="page-title intellect__title"><span class="page-blue">Искусственный интеллект  </span>- это круто?</h1> 
+                <div class="intellect__inner">
+                    <div class="intellect__items">
+                        <div class="intellect__item">
+                            <img src="images/check-mark-icon.png" alt="check mark" class="intellect__item-img">
+                            <p class="intellect__item-text">На данный момент только в Южной Корее ищут 10,000 специалистов в области AI!</p>
+                        </div>
+                        <div class="intellect__item">
+                            <img src="images/check-mark-icon.png" alt="check mark" class="intellect__item-img">
+                            <p class="intellect__item-text">Младшие разработчики искусственного интеллекта без опыта работы могут получать в Южной Корее 60,000,000 вон (51,000$) в год. Специалист со средним стажем работы может получать уже около 100,000,000 вон (85,000$) в год.</p>
+                        </div>
+                        <div class="intellect__item">
+                            <img src="images/check-mark-icon.png" alt="check mark" class="intellect__item-img">
+                            <p class="intellect__item-text">В США уровень зарплат ещё выше! Младший специалист без опыта работы получает в среднем 93,000$ в год. А инженер со средним стажем работы получает уже больше 140,000$ в год!</p>
+                        </div>
+                        <div class="intellect__item">
+                            <img src="images/check-mark-icon.png" alt="check mark" class="intellect__item-img">
+                            <p class="intellect__item-text">А самое вкусное то, что твоя зарплата будет расти вместе 
+                                с твоими навыками. Стаж не так важен.</p>
+                        </div>
+                    </div>
+                    <div class="intellect__image">
+                        <picture>
+                            <source media="(max-width: 900px )" srcset="images/intellect-bck--mobile.png">
+                            <img src="images/intellect-bck.png" alt="" class="intellect__image-img">
+                        </picture>
+                    </div>
+                </div>
+                <button class="page-btn intellect__btn">Записаться на ознакомительный вебинар</button>
+            </div>
+        </section>
+        <section class="important">
+            <div class="container">
+                <h1 class="page-title important__title"><span class="page-blue">Важно </span>понимать что</h1>
+                <div class="important__inner">
+                    <div class="important__item">
+                        <img src="images/important-1.png" alt="img" class="important__item-img">
+                        <p class="important__item-text">Искусственный интеллект - 
+                            это не одна дисциплина, как думают многие, а совокупность различных между собой направлений.</p>
+                    </div>
+                    <div class="important__item">
+                        <img src="images/important-2.png" alt="img" class="important__item-img">
+                        <p class="important__item-text">Подготовка реально хороших специалистов требует времени, краткосрочные курсы эффекта не дают.</p>
+                    </div>
+                    <div class="important__item important__item-reverse">
+                        <img src="images/important-3.png" alt="img" class="important__item-img">
+                        <p class="important__item-text">Большинство менторов никогда не работали над реальными проектами. 
+                            Они изучали все по видеоурокам и книжкам, 
+                            и преподают без практики, что очень печально.</p>
+                    </div>
+                    <div class="important__item important__item-reverse">
+                        <img src="images/important-4.png" alt="img" class="important__item-img">
+                        <p class="important__item-text">На многих курсах 
+                            преподают готовые/идеальные кейсы 
+                            без всяких сложностей, поэтому студенты после таких курсов не могут 
+                            решать реальные задачи 
+                            на работе. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="simply">
+            
+            <div class="container">
+                <img src="images/simply-bg.png" alt="" class="simply__img">
+                <h1 class="page-title simply__title">Почему именно наш курс?<span class="page-blue">Все просто!</span></h1>
+                <div class="simply__inner">
+                    <div class="simply__items">
+                        <div class="simply__item">
+                            <img src="images/check-mark-large.png" alt="check mark large" class="simply__item-img">
+                            <div class="simply__item-text">Объясняем сложные вещи простым и доходчивым языком.</div>
+                        </div>
+                        <div class="simply__item">
+                            <img src="images/check-mark-large.png" alt="check mark large" class="simply__item-img">
+                            <div class="simply__item-text">Обучаем не просто языку программирования, или одной какой-то дисциплине, мы обучаем полностью всей специальности.</div>
+                        </div>
+                        <div class="simply__item">
+                            <img src="images/check-mark-large.png" alt="check mark large" class="simply__item-img">
+                            <div class="simply__item-text">Ознакомляем с содержанием урока только в режиме реального времени. Ты сможешь сразу задать вопрос и тут же получить ответы. Мы всегда будем рядом. </div>
+                        </div>
+                        <div class="simply__item">
+                            <img src="images/check-mark-large.png" alt="check mark large" class="simply__item-img">
+                            <div class="simply__item-text">Обучение ведет ведущий и действующий специалист в области искусственного интеллекта в Южной Корее.</div>
+                        </div>
+                        <div class="simply__item">
+                            <img src="images/check-mark-large.png" alt="check mark large" class="simply__item-img">
+                            <div class="simply__item-text">Обучение проходит в группе по 15 человек, которая внутри делится на 3 команды, и каждая команда выполняет собственный проект. Таким образом, студенты смогут прочувствовать тонкости командной разработки, и уже на этапе обучения окунуться в рабочую атмосферу AI специалиста.</div>
+                        </div>
+                    </div>
+                    <div class="simply__image">
+                        <picture>
+                            <source media="(max-width:900px)" srcset="images/brain-mobile.png">
+                            <img src="images/brain-desktop.png" alt="" class="simply__image-img">
+                        </picture>
+                    </div>
+                </div>
+                <button class="page-btn simply__btn">Записаться на ознакомительный вебинар</button>
+            </div>
+        </section>
+        <section class="know">
+            <div class="container">
+                <h1 class="know__title page-title"><span class="page-blue">Что я узнаю</span> из этих курсов? </h1>
+                <div class="know__subtitle">Полностью весь курс состоит из 3 частей</div>
+                <div class="know__inner">
+                    <div class="know__item">
+                        <div class="know__item-head">
+                            <div class="know__item-name">
+                                <div class="know__item-circle"></div>
+                                <div class="know__item-title">AI - Junior Level.</div>
+                                <span class="know__item-long">Продолжительность 1 год </span>
+                            </div>
+                            <div class="know__item-arrow">
+                                <img src="images/arror-icon.png" alt="arrow-accardion" class="know__item-img">
+                            </div>
+                        </div>
+                        <div class="know__item-text">
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="know__item ">
+                        <div class="know__item-head">
+                            <div class="know__item-name">
+                                <div class="know__item-circle"></div>
+                                <div class="know__item-title">AI - Senior Level.</div>
+                                <span class="know__item-long">Продолжительность 1.5 года. </span>
+                                <span class="know__item-status">В разработке</span>
+                            </div>
+                            <div class="know__item-arrow">
+                                <img src="images/arror-icon.png" alt="arrow-accardion" class="know__item-img">
+                            </div>
+                        </div>
+                        <div class="know__item-text">
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="know__item">
+                        <div class="know__item-head">
+                            <div class="know__item-name">
+                                <div class="know__item-circle"></div>
+                                <div class="know__item-title">AI - Senior LevelV2.0.  </div>
+                                <span class="know__item-long">Продолжительность 1.5 года. </span>
+                                <span class="know__item-status">В разработке</span>
+                            </div>
+                            <div class="know__item-arrow">
+                                <img src="images/arror-icon.png" alt="arrow-accardion" class="know__item-img">
+                            </div>
+                        </div>
+                        <div class="know__item-text">
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            <div class="know__box">
+                                <div class="know__box-title">
+                                    <div class="know__box-count">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="know__box-name">Введение. </div>
+                                </div>
+                                <div class="know__box-text">В этой секции, мы познакомимся с историей человека, который переквалифицировался в специалиста по искусственному интеллекту и отвечаем на вопрос: "Стоит ли это того, чтобы потратить 2 года на изучение искусственного интеллекта?" Также, мы разберём уроки, усвоенные специалистами, прошедших путь от младших до главных специалистов.</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <button class="page-btn know__btn">Записаться на ознакомительный вебинар</button>
+            </div>
+        </section>
+        <section class="autor">
+            <div class="container">
+                <h1 class="page-title autor__title">Автор курса</h1>
+                <div class="autor__inner">
+                    <div class="autor__info">
+                        <p class="autor__info-text">Основателем курса является Владимир Ким, действующий и ведущий специалист в области искусственного интеллекта в Южной Корее, который разрабатывал системы искусственного интеллекта для компаний Samsung SDS, LG science park 
+                            и LG digital park.                       </p>
+                        <p class="autor__info-text">На данный момент, Владимир занимается разработкой виртуальных сенсоров на основе нейронных сетей. </p>
+                        <p class="autor__info-text">Является одним из авторов диссертации об обработке больших данных для Южнокорейского института по развитию Интернета. </p>
+                        <p class="autor__info-text">Действующий член ассоциации разработчиков программного обеспечения в Южной Корее. </p>
+                        <p class="autor__info-text">Активно участвует в R&D проектах по внедрению искусственного интеллекта для 
+                            государственных предприятий Южной Кореи.</p>
+                    </div>
+                    <div class="autor__image">
+                        <picture>
+                            <source media="(max-width:900px)" srcset="images/autor-mobile.png">
+                            <img src="images/autormain.png" alt="autor" class="autor__image-img">
+                        </picture>
+                        <div class="autor__image-box">
+                            <div class="autor__image-name">Владимир Ким</div>
+                            <div class="autor__image-post">Ведущий специалист</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="add">
+            <div class="container">
+                <div class="add__head">
+                    <h1 class="page-title add__head-title">Объявления школы</h1>
+                    <a href="" class="add__head-btn">Все объявления</a>
+                </div>
+            </div>
+            <div class="add__inner">
+                <div class="add__slider">
+                    <div class="add__item">
+                        <div class="add__item-date">
+                            <img src="images/add-date-icon.png" alt="add-date-icon" class="add__item-date_img">
+                            <span class="add__item-date_text">24 мая 2021</span>
+                        </div>
+                        <img src="images/ad-1.png" alt="img" class="add__item-img">
+                        <div class="add__item-title">Заголовок объявления из несколькиз слов</div>
+                        <p class="add__item-text">Искусственный интеллект - это не одна дисциплина, как думают многие, а совокупность различных между 
+                            собой направлений.</p>
+                        <button class="add__item-btn">Подробнее</button>
+                    </div>
+                    <div class="add__item">
+                        <div class="add__item-date">
+                            <img src="images/add-date-icon.png" alt="add-date-icon" class="add__item-date_img">
+                            <span class="add__item-date_text">24 мая 2021</span>
+                        </div>
+                        <img src="images/ad-2.png" alt="img" class="add__item-img">
+                        <div class="add__item-title">Заголовок объявления из несколькиз слов</div>
+                        <p class="add__item-text">Искусственный интеллект - это не одна дисциплина, как думают многие, а совокупность различных между 
+                            собой направлений.</p>
+                        <button class="add__item-btn">Подробнее</button>
+                    </div>
+                    <div class="add__item">
+                        <div class="add__item-date">
+                            <img src="images/add-date-icon.png" alt="add-date-icon" class="add__item-date_img">
+                            <span class="add__item-date_text">24 мая 2021</span>
+                        </div>
+                        <img src="images/ad-3.png" alt="img" class="add__item-img">
+                        <div class="add__item-title">Заголовок объявления из несколькиз слов</div>
+                        <p class="add__item-text">Искусственный интеллект - это не одна дисциплина, как думают многие, а совокупность различных между 
+                            собой направлений.</p>
+                        <button class="add__item-btn">Подробнее</button>
+                    </div>
+                    <div class="add__item">
+                        <div class="add__item-date">
+                            <img src="images/add-date-icon.png" alt="add-date-icon" class="add__item-date_img">
+                            <span class="add__item-date_text">24 мая 2021</span>
+                        </div>
+                        <img src="images/ad-1.png" alt="img" class="add__item-img">
+                        <div class="add__item-title">Заголовок объявления из несколькиз слов</div>
+                        <p class="add__item-text">Искусственный интеллект - это не одна дисциплина, как думают многие, а совокупность различных между 
+                            собой направлений.</p>
+                        <button class="add__item-btn">Подробнее</button>
+                    </div>
+                    <div class="add__item">
+                        <div class="add__item-date">
+                            <img src="images/add-date-icon.png" alt="add-date-icon" class="add__item-date_img">
+                            <span class="add__item-date_text">24 мая 2021</span>
+                        </div>
+                        <img src="images/ad-1.png" alt="img" class="add__item-img">
+                        <div class="add__item-title">Заголовок объявления из несколькиз слов</div>
+                        <p class="add__item-text">Искусственный интеллект - это не одна дисциплина, как думают многие, а совокупность различных между 
+                            собой направлений.</p>
+                        <button class="add__item-btn">Подробнее</button>
+                    </div>
+                    <div class="add__item">
+                        <div class="add__item-date">
+                            <img src="images/add-date-icon.png" alt="add-date-icon" class="add__item-date_img">
+                            <span class="add__item-date_text">24 мая 2021</span>
+                        </div>
+                        <img src="images/ad-2.png" alt="img" class="add__item-img">
+                        <div class="add__item-title">Заголовок объявления из несколькиз слов</div>
+                        <p class="add__item-text">Искусственный интеллект - это не одна дисциплина, как думают многие, а совокупность различных между 
+                            собой направлений.</p>
+                        <button class="add__item-btn">Подробнее</button>
+                    </div>
+                    <div class="add__item">
+                        <div class="add__item-date">
+                            <img src="images/add-date-icon.png" alt="add-date-icon" class="add__item-date_img">
+                            <span class="add__item-date_text">24 мая 2021</span>
+                        </div>
+                        <img src="images/ad-3.png" alt="img" class="add__item-img">
+                        <div class="add__item-title">Заголовок объявления из несколькиз слов</div>
+                        <p class="add__item-text">Искусственный интеллект - это не одна дисциплина, как думают многие, а совокупность различных между 
+                            собой направлений.</p>
+                        <button class="add__item-btn">Подробнее</button>
+                    </div>
+                    <div class="add__item">
+                        <div class="add__item-date">
+                            <img src="images/add-date-icon.png" alt="add-date-icon" class="add__item-date_img">
+                            <span class="add__item-date_text">24 мая 2021</span>
+                        </div>
+                        <img src="images/ad-1.png" alt="img" class="add__item-img">
+                        <div class="add__item-title">Заголовок объявления из несколькиз слов</div>
+                        <p class="add__item-text">Искусственный интеллект - это не одна дисциплина, как думают многие, а совокупность различных между 
+                            собой направленийИскусственный интеллект - это не одна дисциплина, как думают многие, а совокупность различных между 
+                            собой направлений..Искусственный интеллект - это не одна дисциплина, как думают многие, а совокупность различных между 
+                            собой направленийИскусственный интеллект - это не одна дисциплина, как думают многие, а совокупность различных между 
+                            собой направлений..</p>
+                        <button class="add__item-btn">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="add__head-btn add__head-btn_mobile">Все объявления</a>
+        </section>
+        <section class="vacancy">
+            <a class="vacancy__box" href="#hero">  
+                <div class="html__btn">
+                    <div class="html__back"></div>
+                <div class="html__btn-circle">
+                    <img src="images/arrow-top.png" alt="" class="html__btn-img">
+                </div>
+            </div>
+            <div class="vacancy__box-text">Подняться вверх</div>
+        </a>
+            <div class="container">
+                <div class="add__head">
+                    <h1 class="page-title add__head-title">Вакансии</h1>
+                    <a href="" class="add__head-btn">Все вакансии</a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="vacancy__inner">
+                    <div class="vacancy__slider">
+                     <div class="vacancy__item">
+                         <img src="images/ad-1.png" alt="img" class="vacancy__item-img">
+                         <div class="vacancy__item-title">Требуется администратор</div>
+                         <div class="vacancy__item-box">
+                             <p class="vacancy__item-text">Опыт работы . . .. . . . . . . . . . . . . . . . . . . . . . . . . .  от 1 года</p>
+                             <p class="vacancy__item-text">Образование . . .. . . . . . . . . . . . . . . . . . . . . . . . . . Высшее</p>
+                             <p class="vacancy__item-text">Возраст . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  21-35 лет</p>
+                             <p class="vacancy__item-text">Образование . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Высшее</p>
+                         </div>
+                         <button class="vacansy__item-btn">Подробнее</button>
+                     </div>
+                     <div class="vacancy__item">
+                         <img src="images/ad-1.png" alt="img" class="vacancy__item-img">
+                         <div class="vacancy__item-title">Требуется администратор</div>
+                       <div class="vacancy__item-box">
+                             <p class="vacancy__item-text">Опыт работы . . .. . . . . . . . . . . . . . . . . . . . . . . . . .  от 1 года</p>
+                             <p class="vacancy__item-text">Образование . . .. . . . . . . . . . . . . . . . . . . . . . . . . . Высшее</p>
+                             <p class="vacancy__item-text">Возраст . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  21-35 лет</p>
+                             <p class="vacancy__item-text">Образование . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Высшее</p>
+                             <p class="vacancy__item-text">Образование . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Высшее</p>
+                         </div>
+                         <button class="vacansy__item-btn">Подробнее</button>
+                     </div>
+                     <div class="vacancy__item">
+                         <img src="images/ad-1.png" alt="img" class="vacancy__item-img">
+                         <div class="vacancy__item-title">Требуется администратор</div>
+                       <div class="vacancy__item-box">
+                             <p class="vacancy__item-text">Опыт работы . . .. . . . . . . . . . . . . . . . . . . . . . . . . .  от 1 года</p>
+                             <p class="vacancy__item-text">Образование . . .. . . . . . . . . . . . . . . . . . . . . . . . . . Высшее</p>
+                             <p class="vacancy__item-text">Возраст . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  21-35 лет</p>
+                             <p class="vacancy__item-text">Образование . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Высшее</p>
+                         </div>
+                         <button class="vacansy__item-btn">Подробнее</button>
+                     </div>
+                     <div class="vacancy__item">
+                         <img src="images/ad-1.png" alt="img" class="vacancy__item-img">
+                         <div class="vacancy__item-title">Требуется администратор</div>
+                       <div class="vacancy__item-box">
+                             <p class="vacancy__item-text">Опыт работы . . .. . . . . . . . . . . . . . . . . . . . . . . . . .  от 1 года</p>
+                             <p class="vacancy__item-text">Образование . . .. . . . . . . . . . . . . . . . . . . . . . . . . . Высшее</p>
+                             <p class="vacancy__item-text">Возраст . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  21-35 лет</p>
+                             <p class="vacancy__item-text">Образование . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Высшее</p>
+                         </div>
+                         <button class="vacansy__item-btn">Подробнее</button>
+                     </div>
+                     <div class="vacancy__item">
+                         <img src="images/ad-1.png" alt="img" class="vacancy__item-img">
+                         <div class="vacancy__item-title">Требуется администратор</div>
+                       <div class="vacancy__item-box">
+                             <p class="vacancy__item-text">Опыт работы . . .. . . . . . . . . . . . . . . . . . . . . . . . . .  от 1 года</p>
+                             <p class="vacancy__item-text">Образование . . .. . . . . . . . . . . . . . . . . . . . . . . . . . Высшее</p>
+                             <p class="vacancy__item-text">Возраст . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  21-35 лет</p>
+                             <p class="vacancy__item-text">Образование . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Высшее</p>
+                         </div>
+                         <button class="vacansy__item-btn">Подробнее</button>
+                     </div>
+                     <div class="vacancy__item">
+                         <img src="images/ad-1.png" alt="img" class="vacancy__item-img">
+                         <div class="vacancy__item-title">Требуется администратор</div>
+                       <div class="vacancy__item-box">
+                             <p class="vacancy__item-text">Опыт работы . . .. . . . . . . . . . . . . . . . . . . . . . . . . .  от 1 года</p>
+                             <p class="vacancy__item-text">Образование . . .. . . . . . . . . . . . . . . . . . . . . . . . . . Высшее</p>
+                             <p class="vacancy__item-text">Возраст . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  21-35 лет</p>
+                             <p class="vacancy__item-text">Образование . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Высшее</p>
+                         </div>
+                         <button class="vacansy__item-btn">Подробнее</button>
+                     </div>
+                     <div class="vacancy__item">
+                         <img src="images/ad-1.png" alt="img" class="vacancy__item-img">
+                         <div class="vacancy__item-title">Требуется администратор</div>
+                       <div class="vacancy__item-box">
+                             <p class="vacancy__item-text">Опыт работы . . .. . . . . . . . . . . . . . . . . . . . . . . . . .  от 1 года</p>
+                             <p class="vacancy__item-text">Образование . . .. . . . . . . . . . . . . . . . . . . . . . . . . . Высшее</p>
+                             <p class="vacancy__item-text">Возраст . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  21-35 лет</p>
+                             <p class="vacancy__item-text">Образование . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Высшее</p>
+                         </div>
+                         <button class="vacansy__item-btn">Подробнее</button>
+                     </div>
+                     <div class="vacancy__item">
+                         <img src="images/ad-1.png" alt="img" class="vacancy__item-img">
+                         <div class="vacancy__item-title">Требуется администратор</div>
+                         <div class="vacancy__item-box">
+                             <p class="vacancy__item-text">Опыт работы . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  от 1 года</p>
+                             <p class="vacancy__item-text">Образование . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Высшее</p>
+                             <p class="vacancy__item-text">Возраст . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . .  21-35 лет</p>
+                             <p class="vacancy__item-text">Образование . . . . . . . . . . . . . . . . . . . . . Высшее</p>
+                         </div>
+                         <button class="vacansy__item-btn">Подробнее</button>
+                     </div>
+     
+                    </div>
+                 </div>
+            </div>
+            <a href="" class="add__head-btn add__head-btn_mobile">Все объявления</a>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <img src="images/logo.png" alt="logo" class="footer__logo">
+                <div class="footer__box">
+                    <div class="footer__contact">
+                        <a class="footer__contact-box">
+                            <img src="images/send-letter.png" alt="letter icon" class="footer__contact-icon">
+                            <span class="footer__contact-email">admin@gmail.com </span>
+                        </a>
+                        <a href="" class="footer__contact-box">
+                            <img src="images/phone-icon.svg" alt="" class="footer__contact-icon">
+                            <span class="footer__contact-number">+ 82 (66) 6666-6666 </span>
+                        </a>
+                    </div>
+                    <div class="footer__social">
+                        <span class="footer__social-text">Мы в соц сетях</span>
+                        <img src="images/socaial-1.png" alt="" class="footer__social-icon">
+                        <img src="images/socaial-2.png" alt="" class="footer__social-icon">
+                        <img src="images/socaial-3.png" alt="" class="footer__social-icon">
+                        <img src="images/socaial-4.png" alt="" class="footer__social-icon">
+                        <img src="images/socaial-5.png" alt="" class="footer__social-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__bottom-head">
+                <span class="footer__bottom-line"></span>
+                <span class="footer__bottom-text">Copyright © 2021 VeraVla edu.  All rights reserved </span>
+                <span class="footer__bottom-line"></span>
+            </div>
+            <div class="container">
+                    <div class="footer__bottom-box">
+                        <span class="footer__subbottom-text">developed by afreeca</span>
+                         <img src="images/afreeca.png" alt="img-afreeca" class="footer__bottom-img">
+                    </div>
+            </div>
+        </div>
+    </footer>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+</html>
