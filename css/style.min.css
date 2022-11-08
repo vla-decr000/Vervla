@@ -13,7 +13,17 @@
 section {
    min-width: 1400px;
 }
+footer {
+   min-width: 1400px;
+}
+.autor {
+  overflow-y:hidden;
+}
 
+
+.autor__image-img {
+    margin-top: -114px !important;
+}
 
 .slick-list {
   position: relative;
