@@ -1133,6 +1133,9 @@ select {
 button {
   font-family: inherit;
 }
+section {
+  min-width: 1400px;
+}
 
 @-webkit-keyframes back-animation {
   from {
