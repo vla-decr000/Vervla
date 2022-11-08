@@ -1037,6 +1037,7 @@ body.compensate-for-scrollbar {
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  min-width: 1200px;
 }
 
 *, *::before {
@@ -1090,9 +1091,10 @@ p {
 }
 
 body {
+  overflow-y: scroll;
   margin: 0;
-  min-width: 320px;
-  overflow-x: hidden;
+  /* min-width: 320px; */
+  min-width: 1200px;
   position: relative;
   font-family: "Avenir Next Cyr", sans-serif;
   color: #FFFFFF;
@@ -1112,6 +1114,9 @@ main {
 }
 
 .container {
+  overflow-x: hidden;
+  overflow-y: clip;
+  width: 1200px;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
@@ -1220,6 +1225,7 @@ button {
 .hero__box {
   position: absolute;
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: column;
   top: 200px;
   align-items: center;
@@ -1227,6 +1233,7 @@ button {
   left: 20px;
 }
 .hero__box-text {
+
   top: 400px;
   font-style: normal;
   font-weight: 600;
